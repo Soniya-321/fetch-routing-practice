@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem;
+}
+.blog-details-title {
+  font-size: 25px;
+  align-self: center;
+}
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.details-author-name {
+  font-size: 15px;
+}
+.blog-image {
+  height: 40vh;
+  width: 75vw;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.blog-content {
+  font-size: 16px;
+}
